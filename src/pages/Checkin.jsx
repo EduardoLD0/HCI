@@ -6,7 +6,6 @@ const Checkin = () =>
         <div>
             <div>
                 Haga aqui su Checkin
-                <Link to='/'>Volver</Link>
             </div>
             <div>
                 <p>
@@ -23,6 +22,8 @@ const Checkin = () =>
                     </form>
                 </p>
             </div>
+            
+            <Link to='/'>Volver</Link>
         </div>
         
     )

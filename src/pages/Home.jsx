@@ -8,36 +8,34 @@ const Home = () =>
     return (
         <div className='Home'>
             <ul className='Home-header'>
-            <li><Link to='/checkin'>WebCheck-in</Link></li>
+            <li><Link to='/checkin' className='Home-link'>Web Check-in</Link></li>
             <li>Comprar Boletos Aéreos    </li>
             <li>Mis Reservaciones    </li>
             <li>A dónde volamos    </li>
             <li className='Home-logo'></li>
             </ul>
-            <p>
-                
-            </p>
+
             <div>
                 <p>
                     <form>
                         <label>
-                            Desde:
+                            Desde: 
                             <input type="text" name="Desde" />
                         </label>
                         <label>
-                            Hacia:
+                            Hacia: 
                             <input type="text" name="Hacia" />
                         </label>
                         <label>
-                            Fecha Salida:
+                            Fecha Salida: 
                             <input type="text" name="Fecha Salida" />
                         </label>
                         <label>
-                            Fecha Regreso:
+                            Fecha Regreso: 
                             <input type="text" name="Fecha Regreso" />
                         </label>
                         <label>
-                            Pasajeros:
+                            Pasajeros: 
                             <input type="text" name="Pasajeros" />
                         </label>
                         <input type="submit" value="Submit" />
@@ -45,8 +43,8 @@ const Home = () =>
                 </p>
             </div>
         <div>
-            <Link exact to="/">Home</Link>
         </div>
+        <p className='Home-places'></p>
         </div>
     );
 }

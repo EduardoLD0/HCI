@@ -3,20 +3,37 @@
 }
 
 .Home-logo {
-    resize: both;
     width: 250px;
     height: 100px;
     pointer-events: none;
     background-image: url(../images/logo.png);
+    image-resolution: 100 120;
+}
+
+.Home-places {
+    width: 905px;
+    height: 405px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/sitiosTuristicos.png);
 }
 
 .Home-header {
     list-style-type: none;
-    padding: 1em;
-    background-color: rgb(34, 34, 105);
+    background-color: #93CAED;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 0;
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+.Home-link {
+    color: #000;
+    text-decoration: none;
 }
