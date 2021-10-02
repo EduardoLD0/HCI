@@ -5,8 +5,7 @@ import Home from './pages/Home';
 const App = () => {
 
   return (
-    <div className='App-header'>
-      <div className='App-logo'></div>
+    <div className='App'>
       <Router>
         <Switch>
           <Route exact path='/home'>
@@ -14,9 +13,19 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    <Link to='/home'>
-      home
-    </Link>
+    <div>
+      <p>
+        <ul className='App-header'>
+          <li>WebCheck-in    </li>
+          <li>Comprar Boletos Aéreos    </li>
+          <li>Mis Reservaciones    </li>
+          <li>A dónde volamos    </li>
+        </ul>
+      </p>
+      {/* <p>
+        <div className='App-logo'></div>
+      </p> */}
+    </div>
     </div>
   );
 }
