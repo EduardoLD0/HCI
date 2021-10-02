@@ -1,0 +1,22 @@
+.Home {
+    background-color: #ffffff;
+}
+
+.Home-logo {
+    resize: both;
+    width: 250px;
+    height: 100px;
+    pointer-events: none;
+    background-image: url(../images/logo.png);
+}
+
+.Home-header {
+    list-style-type: none;
+    padding: 1em;
+    background-color: rgb(34, 34, 105);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
