@@ -1,28 +1,29 @@
 import {Link} from 'react-router-dom';
+import '../styles/Checkin.css';
 
 const Checkin = () =>
 {
     return (
         <div>
             <div>
-                Haga aqui su Checkin
+                Realizar Web-CheckIn
             </div>
             <div>
                 <p>
-                    <form>
+                    <form className='Checkin-info'>
                         <label>
-                            Numero:
+                            Código de reserva:
                             <input type="text" name="Numero" />
                         </label>
                         <label>
                             Apellido:
                             <input type="text" name="Apellido" />
                         </label>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Enviar" />
                     </form>
                 </p>
             </div>
-            
+
             <Link to='/'>Volver</Link>
         </div>
         

@@ -14,10 +14,10 @@ const Home = () =>
             <li>A dónde volamos    </li>
             <li className='Home-logo'></li>
             </ul>
-
+            
             <div>
                 <p>
-                    <form>
+                    <form className='Home-info'>
                         <label>
                             Desde: 
                             <input type="text" name="Desde" />
@@ -42,8 +42,7 @@ const Home = () =>
                     </form>
                 </p>
             </div>
-        <div>
-        </div>
+
         <p className='Home-places'></p>
         </div>
     );
