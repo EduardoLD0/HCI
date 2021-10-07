@@ -1,34 +1,10 @@
 .Home {
-    background-color: #ffffff;
-}
-
-.Home-logo {
-    width: 250px;
-    height: 100px;
-    pointer-events: none;
-    background-image: url(../images/logo.png);
-    image-resolution: 100 120;
-}
-
-.Home-places {
-    width: 100%;
-    height: 400px;
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    background: url(../images/sitiosTuristicos.png);
-}
-
-.Home-header {
-    list-style-type: none;
-    background-color: #93CAED;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    font-size: 25px;
-    color: black;
+    background-image: url(../images/sitiosTuristicos.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
 }
 
 .Home-info {

@@ -1,0 +1,18 @@
+.Header {
+    list-style-type: none;
+    background-color: #93CAED;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 25px;
+    color: black;
+}
+
+.Header-logo {
+    width: 250px;
+    height: 100px;
+    pointer-events: none;
+    background-image: url(../images/logo.png);
+    image-resolution: 100 120;
+}

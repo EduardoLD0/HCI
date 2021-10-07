@@ -1,10 +1,12 @@
 import {Link} from 'react-router-dom';
 import '../styles/Checkin.css';
+import Header from '../components/Header'
 
 const Checkin = () =>
 {
     return (
-        <div>
+        <div className='Home'>
+            <Header />
             <div>
                 Realizar Web-CheckIn
             </div>
@@ -13,7 +15,7 @@ const Checkin = () =>
                     <form className='Checkin-info'>
                         <label>
                             Código de reserva:
-                            <input type="text" name="Numero" />
+                            <input type="text" name="Código" />
                         </label>
                         <label>
                             Apellido:
@@ -24,7 +26,7 @@ const Checkin = () =>
                 </p>
             </div>
 
-            <Link to='/'>Volver</Link>
+            <Link to='/'>Volver a Home</Link>
         </div>
         
     )

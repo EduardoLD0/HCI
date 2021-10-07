@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import {Card,Button,CardImg,CardTitle,CardSubtitle,CardBody,Container,Row,Col} from 'reactstrap';
+import Header from "../components/Header"
 import menuForm from "../components/menuForm";
 import '../styles/Home.css';
 
@@ -7,14 +8,7 @@ const Home = () =>
 {
     return (
         <div className='Home'>
-            <ul className='Home-header'>
-            <li><Link to='/checkin' className='Home-link'>Web Check-in</Link></li>
-            <li>Comprar Boletos Aéreos    </li>
-            <li>Mis Reservaciones    </li>
-            <li>A dónde volamos    </li>
-            <li className='Home-logo'></li>
-            </ul>
-            
+            <Header />
             <div>
                 <p>
                     <form className='Home-info'>
@@ -38,12 +32,10 @@ const Home = () =>
                             Pasajeros: 
                             <input type="text" name="Pasajeros" />
                         </label>
-                        <input type="submit" value="Submit" />
+                        <input type="buscar" value="Buscar" />
                     </form>
                 </p>
             </div>
-
-        <p className='Home-places'></p>
         </div>
     );
 }
