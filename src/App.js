@@ -1,9 +1,12 @@
 import './App.css';
 import {Link, Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages/Home';
-import Checkin from './pages/Checkin'
+import Checkin from './pages/Checkin';
+import About from './pages/About/About';
+import Flota from './pages/About/Flota';
+import Destinos from './pages/About/Destinos';
 
-const App = () => {
+const App = (props) => {
 
   return (
     <div className='App'>
@@ -14,6 +17,15 @@ const App = () => {
           </Route>
           <Route exact path='/checkin'>
             <Checkin />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/about/flota'>
+            <Flota />
+          </Route>
+          <Route exact path='/about/destinos'>
+            <Destinos />
           </Route>
         </Switch>
       </Router>

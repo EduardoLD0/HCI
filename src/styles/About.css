@@ -1,0 +1,22 @@
+
+
+.Flota {
+    background-image: url(../images/flota.jpg);
+    width: 998px;
+    height: 524px;
+    background-position: center center;
+}
+
+.Info-Flota {
+    background-image: url(../images/flotaTabla.JPG);
+    width: 1128px;
+    height: 821px;
+    margin-top: 20px;
+}
+
+.Info-Destinos {
+    background-image: url(../images/destinos.JPG);
+    width: 1445px;
+    height: 612px;
+    margin-top: 20px;
+}

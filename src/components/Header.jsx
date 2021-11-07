@@ -8,7 +8,7 @@ const Header = () => {
         <li><Link to='/checkin' className='Home-link'>Web Check-in</Link></li>
         <li>Comprar Boletos Aéreos</li>
         <li>Mis Reservaciones</li>
-        <li>A dónde volamos</li>
+        <li><Link to='/about' className='Home-link'>Acerca de PUJ Airlines</Link></li>
         </ul>
     )
 }
